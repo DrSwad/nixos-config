@@ -108,6 +108,14 @@ output "eDP-1" {
     backdrop-color "#000"
 }
 
+output "HDMI-A-1" {
+    position x=1920 y=0
+}
+
+output "DP-2" {
+    position x=0 y=0
+}
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Layout
