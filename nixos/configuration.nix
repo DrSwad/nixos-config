@@ -105,6 +105,14 @@
     variant = "";
   };
 
+  # Configure zerotier
+  services.zerotierone = {
+    enable = true;
+    joinNetworks = [ "b6079f73c69577b0" ];
+  };
+
+  services.tailscale.enable = true;
+
   # Configure console keymap
   console.keyMap = "br-abnt2";
 
