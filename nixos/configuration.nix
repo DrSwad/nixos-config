@@ -168,6 +168,7 @@
     wget
     curl
     jq
+    zip
     unzip
     kanata
     ripgrep
