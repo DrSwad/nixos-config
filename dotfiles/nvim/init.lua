@@ -40,6 +40,8 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 vim.o.timeoutlen = 1000
 
+vim.opt.clipboard = "unnamedplus"
+
 -------------
 -- keymaps --
 -------------
